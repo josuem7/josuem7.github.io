@@ -18,19 +18,37 @@
         .hide {
             display: none ;
         }
+        .start-animation {
+            animation-name: boop;
+            animation-duration:2s;
+
+        }
     </style>
 </head>
 <body>
 <p class="button">Im a button</p>
-<p class="content>Im a content</p>
+<p class="content hide">Im a content</p>
+
+<a class="swap" href="#">swap image</a>
+<img class="kitty-swap" src="http://placekitten.com/200/200" alt="">
+
+
 <script
 src="https://code.jquery.com/jquery-3.6.3.min.js"
 integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
 crossorigin="anonymous"></script>
+
 <script>
-$('.button').click(function () {
-    $('content').toggleClass('hide')
-    })
-</script>   
+    $('.swap').hover(function(){
+        $('.kitty-swap').attr('src', 'http://placekitten.com/200/200' )
+    }
+</script>
+
+<script>
+    $('.button').click(function () {
+        $('.content').toggleClass('hide');
+    });
+</script> 
+  
 </body>
 </html>
