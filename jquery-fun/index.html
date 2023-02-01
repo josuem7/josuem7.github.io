@@ -11,19 +11,26 @@
             border: 1px solid black;
             display: inline-block;
         }
+        .content {
+            font-size: 40px;
+            display: block;
+        }
+        .hide {
+            display: none ;
+        }
     </style>
 </head>
 <body>
 <p class="button">Im a button</p>
-
+<p class="content>Im a content</p>
 <script
 src="https://code.jquery.com/jquery-3.6.3.min.js"
 integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
 crossorigin="anonymous"></script>
 <script>
-$('.button').click(function() {
-    $(this).hide(200)
-})
+$('.button').click(function () {
+    $('content').toggleClass('hide')
+    })
 </script>   
 </body>
 </html>
