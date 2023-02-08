@@ -54,17 +54,48 @@ body.home-page {
 }
 
 .sub-page header {
+  margin-top: 40px;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .sub-page header h1 {
+  margin: 0;
   font-size: 180px;
+}
+.earn-page header h1 {
   color: rgb(254, 206, 0);
 }
-.earn-page {
+
+.earn-page header {
   background-image: url('images/earn-bg.png');
+}
+.sub-page main {
+  height: 100vh;
+  position: relative;
+}
+.sub-page .earn-blue {
+  position: absolute;
+  bottom: 0;
+  left: 500px;
+  width: 462px;
+}
+.sub-page .earn-yellow {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 804px;
+}
+.sub-page .earn-content {
+  width: 600px;
+  position: absolute;
+  top: 80px;
+  left: 40%;
 }
 
 .nav {
