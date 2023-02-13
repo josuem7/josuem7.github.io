@@ -14,7 +14,7 @@ a {
   text-decoration: none;
 }
 img {
-  width: 100%;
+  width: 70%;
 }
 h1,
 h2,
@@ -23,11 +23,11 @@ h4{
   font-family: 'MedievalSharp', cursive;
 }
 .main-nav {
-  margin: 10px 20px;
+  margin: 10px 50px;
 }
 .home-page header {
   display: flex;
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 .home-page header .logo {
@@ -49,8 +49,8 @@ h4{
   margin-top: 300px;
 }
 body.home-page {
-  background-image: url('images/home-bg.png');
-  background-size: cover;
+  background-image: url('images/atlanta-bg.jpeg');
+  background-size: 1500px;
   background-repeat: no-repeat;
 }
 
@@ -74,7 +74,7 @@ body.home-page {
 }
 
 .earn-page header {
-  background-image: url('images/earn-bg.png');
+  background-image: url('images/earn-bg.jpeg');
 }
 .sub-page main {
   height: 100vh;
@@ -124,7 +124,7 @@ body.home-page {
 }
 
 .van-page header {
-  background-image: url('images/van-bg.png');
+  background-image: url('images/van-bg.jpeg');
 }
 .sub-page main {
   height: 100vh;
@@ -174,7 +174,7 @@ body.home-page {
 }
 
 .darius-page header {
-  background-image: url('images/darius-bg.png');
+  background-image: url('images/darius-bg.jpeg');
 }
 .sub-page main {
   height: 100vh;
