@@ -82,20 +82,20 @@ body.home-page {
 }
 .sub-page .earn-blue {
   position: absolute;
-  bottom: -750px;
-  left: 750px;
-  width: 650px;
+  bottom: 0px;
+  left: 900px;
+  width: 400px;
 }
 .sub-page .earn-yellow {
   position: absolute;
-  bottom: -750px;
-  left: 20px;
-  width: 1200px;
+  bottom: 0px;
+  left: 100px;
+  width: 900px;
 }
 .sub-page .earn-red {
   position: absolute;
-  bottom: -500px;
-  left: 20px;
+  bottom: 60px;
+  left: 25px;
   width: 500px;
 }
 .sub-page .earn-content {
@@ -133,26 +133,26 @@ body.home-page {
 .sub-page .van-orange {
   position: absolute;
   bottom: 0;
-  left: 500px;
-  width: 462px;
+  left: 820px;
+  width: 602px;
 }
 .sub-page .van-pink {
   position: absolute;
   bottom: 0;
   left: 20px;
-  width: 804px;
+  width: 604px;
 }
 .sub-page .van-red {
   position: absolute;
   bottom: 0;
-  left: -40px;
-  width: 500px;
+  left: 650px;
+  width: 150px;
 }
 .sub-page .van-content {
-  width: 600px;
+  width: 200px;
   position: absolute;
   top: 80px;
-  left: 40%;
+  left: 45%;
 }
 .sub-page header {
   margin-top: 40px;
@@ -232,21 +232,21 @@ body.home-page {
 }
 .sub-page .pb-blue {
   position: absolute;
-  bottom: -550px;
-  left: 850px;
-  width: 600px;
+  bottom: 0px;
+  left: 1000px;
+  width: 400px;
 }
 .sub-page .pb-green {
   position: absolute;
-  bottom: -550px;
-  left: 300px;
-  width: 760px;
+  bottom: 0px;
+  left: 450px;
+  width: 520px;
 }
 .sub-page .pb-yellow {
   position: absolute;
-  bottom: -550px;
+  bottom: 0px;
   left: -40px;
-  width: 750px;
+  width: 650px;
 }
 .sub-page .pb-content {
   width: 500px;
