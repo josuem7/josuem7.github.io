@@ -94,8 +94,8 @@ body.home-page {
 .sub-page .earn-red {
   position: absolute;
   bottom: 0;
-  left: -10;
-  width: 200;
+  left: -40px;
+  width: 500px;
 }
 .sub-page .earn-content {
   width: 600px;
@@ -103,7 +103,156 @@ body.home-page {
   top: 80px;
   left: 40%;
 }
+.sub-page header {
+  margin-top: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sub-page header h2 {
+  margin: 0;
+  font-size: 180px;
+}
+.van-page header h2 {
+  color: rgb(255, 112, 0);
+}
 
+.van-page header {
+  background-image: url('images/van-bg.png');
+}
+.sub-page main {
+  height: 100vh;
+  position: relative;
+}
+.sub-page .van-orange {
+  position: absolute;
+  bottom: 0;
+  left: 500px;
+  width: 462px;
+}
+.sub-page .van-pink {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 804px;
+}
+.sub-page .van-red {
+  position: absolute;
+  bottom: 0;
+  left: -40px;
+  width: 500px;
+}
+.sub-page .van-content {
+  width: 600px;
+  position: absolute;
+  top: 80px;
+  left: 40%;
+}
+.sub-page header {
+  margin-top: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sub-page header h3 {
+  margin: 0;
+  font-size: 180px;
+}
+.darius-page header h3 {
+  color: rgb(154, 48, 44);
+}
+
+.darius-page header {
+  background-image: url('images/darius-bg.png');
+}
+.sub-page main {
+  height: 100vh;
+  position: relative;
+}
+.sub-page .darius-green {
+  position: absolute;
+  bottom: 0;
+  left: 500px;
+  width: 462px;
+}
+.sub-page .darius-pink {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 804px;
+}
+.sub-page .darius-red {
+  position: absolute;
+  bottom: 0;
+  left: -40px;
+  width: 500px;
+}
+.sub-page .darius-content {
+  width: 600px;
+  position: absolute;
+  top: 80px;
+  left: 40%;
+}
+.sub-page header {
+  margin-top: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sub-page header h4 {
+  margin: 0;
+  font-size: 180px;
+}
+.pb-page header h4 {
+  color: rgb(254, 206, 0);
+}
+
+.pb-page header {
+  background-image: url('images/pb-bg.png');
+}
+.sub-page main {
+  height: 100vh;
+  position: relative;
+}
+.sub-page .pb-blue {
+  position: absolute;
+  bottom: 0;
+  left: 500px;
+  width: 462px;
+}
+.sub-page .pb-green {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: 804px;
+}
+.sub-page .pb-yellow {
+  position: absolute;
+  bottom: 0;
+  left: -40px;
+  width: 500px;
+}
+.sub-page .earn-content {
+  width: 600px;
+  position: absolute;
+  top: 80px;
+  left: 40%;
+}
 .nav {
   display: block;
   position: fixed;
