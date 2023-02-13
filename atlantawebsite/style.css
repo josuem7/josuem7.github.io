@@ -18,7 +18,8 @@ img {
 }
 h1,
 h2,
-h3 {
+h3, 
+h4{
   font-family: 'MedievalSharp', cursive;
 }
 .main-nav {
@@ -114,11 +115,11 @@ body.home-page {
   align-items: center;
   justify-content: center;
 }
-.sub-page header h2 {
+.sub-page header h1 {
   margin: 0;
   font-size: 180px;
 }
-.van-page header h2 {
+.van-page header h1 {
   color: rgb(255, 112, 0);
 }
 
@@ -164,11 +165,11 @@ body.home-page {
   align-items: center;
   justify-content: center;
 }
-.sub-page header h3 {
+.sub-page header h1 {
   margin: 0;
   font-size: 180px;
 }
-.darius-page header h3 {
+.darius-page header h1 {
   color: rgb(154, 48, 44);
 }
 
@@ -214,12 +215,12 @@ body.home-page {
   align-items: center;
   justify-content: center;
 }
-.sub-page header h4 {
+.sub-page header h1 {
   margin: 0;
   font-size: 180px;
 }
-.pb-page header h4 {
-  color: rgb(254, 206, 0);
+.pb-page header h1 {
+  color: rgb(42, 111, 104);
 }
 
 .pb-page header {
@@ -247,7 +248,7 @@ body.home-page {
   left: -40px;
   width: 500px;
 }
-.sub-page .earn-content {
+.sub-page .pb-content {
   width: 600px;
   position: absolute;
   top: 80px;
