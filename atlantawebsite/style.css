@@ -82,27 +82,27 @@ body.home-page {
 }
 .sub-page .earn-blue {
   position: absolute;
-  bottom: 0;
-  left: 500px;
-  width: 462px;
+  bottom: -750px;
+  left: 750px;
+  width: 650px;
 }
 .sub-page .earn-yellow {
   position: absolute;
-  bottom: 0;
+  bottom: -750px;
   left: 20px;
-  width: 804px;
+  width: 1200px;
 }
 .sub-page .earn-red {
   position: absolute;
-  bottom: 0;
-  left: -40px;
+  bottom: -500px;
+  left: 20px;
   width: 500px;
 }
 .sub-page .earn-content {
-  width: 600px;
+  width: 500px;
   position: absolute;
   top: 80px;
-  left: 40%;
+  left: 60%;
 }
 .sub-page header {
   margin-top: 40px;
