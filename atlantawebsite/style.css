@@ -46,7 +46,8 @@ h4{
   margin-top: 80px;
 }
 .home-content {
-  margin-top: 300px;
+  margin-top: 330px;
+  width: 400px;
 }
 body.home-page {
   background-image: url('images/atlanta-bg.jpeg');
