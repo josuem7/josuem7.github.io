@@ -91,6 +91,12 @@ body.home-page {
   left: 20px;
   width: 804px;
 }
+.sub-page .earn-red {
+  position: absolute;
+  bottom: 0;
+  left: -10;
+  width: 200;
+}
 .sub-page .earn-content {
   width: 600px;
   position: absolute;
