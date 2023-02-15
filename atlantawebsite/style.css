@@ -94,10 +94,10 @@ body.home-page {
   width: 900px;
 }
 .sub-page .earn-red {
-  position: absolute;
+  position: -webkit-sticky;
   bottom: 60px;
   left: 25px;
-  width: 500px;
+  width: 600px;
 }
 .sub-page .earn-content {
   width: 500px;
