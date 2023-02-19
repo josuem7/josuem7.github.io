@@ -1,0 +1,37 @@
+*{ 
+    margin: 0;
+    Padding: 0;
+    box-sizing: 0;
+}
+body {
+    text-align: center;
+}
+
+#front-wheel,
+#back-wheel {
+    animation: wheel 1s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#hair
+
+@keyframes wheel{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+
+@keyframes hair{
+    from {
+        Transform: translateY(0%)
+
+    }
+    to {
+        transform: translateY(30%);
+    }
+}
