@@ -14,7 +14,11 @@ body {
     transform-box: fill-box;
 }
 
-#hair
+#hair {
+    animation: hair 1s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
 
 @keyframes wheel{
     from{
