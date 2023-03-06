@@ -20,7 +20,7 @@ header {
     height: 40px;
 }
 .sub-page main {
-    background:white;
+    background:#ffe55a;
     width:100%;
     display:flex;
     flex-wrap:wrap;
