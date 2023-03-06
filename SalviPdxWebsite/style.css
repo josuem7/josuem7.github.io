@@ -1,10 +1,38 @@
+*{
+    box-sizing:border-box;
+}
 body{
-    background-color:rgb(255, 213, 0) 
-
-
-
+    margin:0;
+    background-color: #ffe55a;
+}
+img {
+    width: 20%;
+}
+header {
+    text-align: center;
+    background: #ffe55a;
+}
+.home-page header{
+    background: white;
+    height: 100px;
+}
+.logo {
+    height: 40px;
+}
+.sub-page main {
+    background:white;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    padding:80px;
+}
+.sub-page main div {
+    flex:50%;
+    padding:40px;
+}
+.packs-page main div {
+    padding:10px;
 }
 a{ 
-    color:black
-    
+    color:black   
 }
