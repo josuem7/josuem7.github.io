@@ -6,7 +6,9 @@ body{
     background-color: #ffe55a;
 }
 img {
-    width: 20%;
+    
+    width:fit-content
+   
 }
 header {
     text-align: center;
@@ -19,8 +21,6 @@ header {
 .logo{
     height: 60pxpx;
 }
-
-
 
 
 
