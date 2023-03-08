@@ -22,6 +22,9 @@ header {
     height: 60pxpx;
 }
 
+h1,{
+    font-family: 'DM Serif Display', serif;
+}
 
 
 .sub-page main {
