@@ -6,7 +6,7 @@ body{
     background-color: #ffe55a;
 }
 img {
-    
+    width: 20%;
     width:fit-content
    
 }
@@ -25,7 +25,7 @@ header {
 
 
 .sub-page main {
-    background:#ffe55a;
+    background:white;
     width:100%;
     display:flex;
     flex-wrap:wrap;
