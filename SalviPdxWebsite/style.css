@@ -22,7 +22,7 @@ header {
     height: 60pxpx;
 }
 
-h1,{
+h1{
     font-family: 'DM Serif Display', serif;
 }
 
@@ -42,5 +42,36 @@ h1,{
     padding:10px;
 }
 a{ 
-    color:black   
+    color:black;   
+}
+.home-images {
+    display:flex ;
+}
+.home-images div{ 
+    flex:1;
+}
+
+.about-us {
+    display:flex ;
+    padding: 20px;
+}
+.about-us div{ 
+    flex:1;
+}
+.about-us p {
+    background:white;
+    padding: 20px;
+}
+.details {
+    display: flex;
+    flex-wrap: wrap;
+}
+.details article {
+    flex:50%;
+}
+.details article:nth-child(1),.details article:nth-child(3){
+    border-right: 4px solid black;
+}
+.details article:nth-child(1), .details article:nth-child(2){
+    border-bottom: 4px solid black;
 }
