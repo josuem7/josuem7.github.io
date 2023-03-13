@@ -25,6 +25,7 @@ header {
 
 h1{
     font-family: 'DM Serif Display', serif;
+    font-size: 80px;
 }
 
 
@@ -54,14 +55,14 @@ a{
 
 .about-us {
     display:flex ;
-    padding: 20px;
+    padding: 50px;
 }
 .about-us div{ 
     flex:1;
 }
 .about-us p.about-content {
     background:white;
-    padding: 20px;
+    padding: 90px;
 }
 .details {
     display: flex;
@@ -72,9 +73,11 @@ a{
 }
 .details article:nth-child(1),.details article:nth-child(3){
     border-right: 4px solid black;
+
 }
 .details article:nth-child(1), .details article:nth-child(2){
     border-bottom: 4px solid black;
+    height: 60px;
 }
 .button {
     display:inline-block;
