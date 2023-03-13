@@ -5,6 +5,7 @@ body{
     margin:0;
     background-color: #ffe55a;
     font-family: "Questrial",sans-serif;
+    
 }
 img {
     width: 20%;
@@ -67,9 +68,12 @@ a{
 .details {
     display: flex;
     flex-wrap: wrap;
+    font-size: 25px;
 }
 .details article {
     flex:50%;
+
+
 }
 .details article:nth-child(1),.details article:nth-child(3){
     border-right: 4px solid black;
@@ -86,4 +90,5 @@ a{
     border-radius: 20px;
     padding:16px 24px;
     text-align: center;
+
 }
