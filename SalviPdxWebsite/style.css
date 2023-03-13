@@ -22,9 +22,8 @@ header {
     height: 100px;
 }
 .logo{
-    height: 60pxpx;
+    height: 150px;
 }
-
 h1{
     font-family: 'DM Serif Display', serif;
     font-size: 80px;
@@ -73,7 +72,6 @@ a{
 }
 .details article {
     flex:50%;
-
 
 }
 .details article:nth-child(1),.details article:nth-child(3){
